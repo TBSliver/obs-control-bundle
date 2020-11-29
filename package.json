@@ -1,0 +1,65 @@
+{
+  "name": "obs-control-bundle",
+  "version": "0.1.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "Tom Bloor",
+    "email": "tom@tbsliver.me",
+    "url": "https://tbsliver.me"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension"
+  ],
+  "keywords": [
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "connect",
+        "title": "OBS Connect",
+        "width": 3,
+        "file": "connect.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "obs-controls",
+        "title": "OBS Controls",
+        "file": "controls.html",
+        "headerColor": "#525F78",
+        "fullbleed": true
+      }
+    ]
+  },
+  "repository": "https://github.com/TBSliver/obs-control-bundle.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.11.1",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-add-module-exports": "^1.0.4",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.4.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^2.5.2",
+    "use-nodecg": "^0.4.0"
+  },
+  "dependencies": {
+    "nodecg-utility-obs": "^6.1.6"
+  }
+}
