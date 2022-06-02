@@ -51,8 +51,8 @@
     "babel-plugin-add-module-exports": "^1.0.4",
     "css-loader": "^4.3.0",
     "html-webpack-plugin": "^4.4.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
@@ -60,6 +60,6 @@
     "use-nodecg": "^0.4.0"
   },
   "dependencies": {
-    "nodecg-utility-obs": "^6.1.6"
+    "nodecg-utility-obs": "^6.1.7"
   }
 }
